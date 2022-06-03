@@ -6,3 +6,4 @@ INSERT DATA IN THE DB IN THE FOLLOWING ORDER:
 4.administration-ins.sql
 5.telephones-ins.sql
 6.scientific_field-ins.sql
+7.researcher-ins.sql
