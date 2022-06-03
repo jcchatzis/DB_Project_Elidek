@@ -1,0 +1,6 @@
+INSERT DATA IN THE DB IN THE FOLLOWING ORDER:
+
+1.organisation-ins.sql
+2.projects-ins.sql
+3.deliverable-ins.sql
+4.administration-ins.sql
