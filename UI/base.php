@@ -65,8 +65,8 @@
             <!-- Masthead-->
  <!-- Contact Section-->
  <br /><br /><br />
-        <section class="page-section" id="contact">
-            <div class="container">
+                <section class="page-section" id="contact">
+                <div class="container">
                 <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">base</h2>
                 <!-- Icon Divider-->
@@ -76,8 +76,9 @@
                 <form method="get">
                     <input class="btn btn-primary btn-xl"  type="submit" name = "add" value="Add"> 
                     <input class="btn btn-primary btn-xl"  type="submit" name = "delete" value="Delete"> 
-                </form>  
-                <?php 
+                </form> 
+
+            <?php 
                 
                 if($_GET){
                 
@@ -105,7 +106,7 @@
                           </form>
                         ';
 
-                        <?php
+                        
 
                         if($_GET){
 
@@ -598,7 +599,7 @@
                         </form>
                         ';
 
-                        <?php
+                        
 
                         if($_GET){
 
@@ -1036,7 +1037,7 @@
                     }
                     
                 }
-                ?>
+            ?>
                      
 
                 
@@ -1081,7 +1082,6 @@
                 <small>
                     Copyright &copy; Your Website
                     <!-- This script automatically adds the current year to your website footer-->
-                    <!-- (credit: https://updateyourfooter.com/)-->
                     <script>
                         document.write(new Date().getFullYear());
                     </script>
@@ -1105,4 +1105,4 @@
         <script src="js/scripts.js"></script>
 
     </body>
-    </html>
+</html>
