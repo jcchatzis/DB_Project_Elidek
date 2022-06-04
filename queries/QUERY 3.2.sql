@@ -1,4 +1,4 @@
-select c.project_title;
+select c.project_title
            
 from researcher a join res_works_on_project b on (a.researcher_id = b.researcher_id )
                   join project c on (b.project_id = c.project_id)
@@ -12,7 +12,7 @@ order by c.project_id asc
 
 /*------*/
 
-select  c.project_title;
+select  c.project_title
            
 from organisation a join project b on (a.project_id = b.project_id)
 
