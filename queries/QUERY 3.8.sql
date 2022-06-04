@@ -3,7 +3,7 @@
 /* 3.8. Βρείτε τους ερευνητές που εργάζονται σε 5 ή περισσότερα έργα που δεν έχουν παραδοτέα (όνομα ερευνητή και αριθμός έργων). */
 
 
-select count(a.researcher_id),
+select count(a.researcher_id) total_projects,
        a.researcher_last_name,
        a.researcher_first_name
 from researcher a join res_works_on_project b on (a.researcher_id = b.researcher_id)
