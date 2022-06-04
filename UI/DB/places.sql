@@ -1,0 +1,65 @@
+INSERT INTO cool_hotel.places (PLACE_ID,Room_Number,Room_Name,Description) VALUES
+	 ('bar1','1','bar','bar'),
+	 ('bar2','2','bar','bar'),
+	 ('bar3','3','bar','bar'),
+	 ('bar4','4','bar','bar'),
+	 ('bar5','5','bar','bar'),
+	 ('bar6','6','bar','bar'),
+	 ('gym1','1','gym','gym'),
+	 ('gym2','2','gym','gym'),
+	 ('gym3','3','gym','gym'),
+	 ('gym4','4','gym','gym');
+INSERT INTO cool_hotel.places (PLACE_ID,Room_Number,Room_Name,Description) VALUES
+	 ('hair_saloon0','1','hair_saloon','hair_saloon'),
+	 ('meeting_room1','1','meeting_room','meeting_room'),
+	 ('meeting_room10','10','meeting_room','meeting_room'),
+	 ('meeting_room2','2','meeting_room','meeting_room'),
+	 ('meeting_room3','3','meeting_room','meeting_room'),
+	 ('meeting_room4','4','meeting_room','meeting_room'),
+	 ('meeting_room5','5','meeting_room','meeting_room'),
+	 ('meeting_room6','6','meeting_room','meeting_room'),
+	 ('meeting_room7','7','meeting_room','meeting_room'),
+	 ('meeting_room8','8','meeting_room','meeting_room');
+INSERT INTO cool_hotel.places (PLACE_ID,Room_Number,Room_Name,Description) VALUES
+	 ('meeting_room9','9','meeting_room','meeting_room'),
+	 ('restaurant1','1','restaurant','restaurant'),
+	 ('restaurant2','2','restaurant','restaurant'),
+	 ('restaurant3','3','restaurant','restaurant'),
+	 ('restaurant4','4','restaurant','restaurant'),
+	 ('room0','0','room','room'),
+	 ('room1','1','room','room'),
+	 ('room10','10','room','room'),
+	 ('room11','11','room','room'),
+	 ('room12','12','room','room');
+INSERT INTO cool_hotel.places (PLACE_ID,Room_Number,Room_Name,Description) VALUES
+	 ('room13','13','room','room'),
+	 ('room14','14','room','room'),
+	 ('room15','15','room','room'),
+	 ('room16','16','room','room'),
+	 ('room17','17','room','room'),
+	 ('room18','18','room','room'),
+	 ('room19','19','room','room'),
+	 ('room2','2','room','room'),
+	 ('room20','20','room','room'),
+	 ('room21','21','room','room');
+INSERT INTO cool_hotel.places (PLACE_ID,Room_Number,Room_Name,Description) VALUES
+	 ('room22','22','room','room'),
+	 ('room23','23','room','room'),
+	 ('room3','3','room','room'),
+	 ('room4','4','room','room'),
+	 ('room5','5','room','room'),
+	 ('room6','6','room','room'),
+	 ('room7','7','room','room'),
+	 ('room8','8','room','room'),
+	 ('room9','9','room','room'),
+	 ('sauna1','1','sauna','sauna');
+INSERT INTO cool_hotel.places (PLACE_ID,Room_Number,Room_Name,Description) VALUES
+	 ('sauna10','10','sauna','sauna'),
+	 ('sauna2','2','sauna','sauna'),
+	 ('sauna3','3','sauna','sauna'),
+	 ('sauna4','4','sauna','sauna'),
+	 ('sauna5','5','sauna','sauna'),
+	 ('sauna6','6','sauna','sauna'),
+	 ('sauna7','7','sauna','sauna'),
+	 ('sauna8','8','sauna','sauna'),
+	 ('sauna9','9','sauna','sauna');
