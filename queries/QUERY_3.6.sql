@@ -1,6 +1,6 @@
 /* QUERY 3.6 */
 
-select count(b.researcher_id),
+select count(b.researcher_id) number_of_projects,
        a.researcher_last_name,
        a.researcher_first_name
 from researcher a,
