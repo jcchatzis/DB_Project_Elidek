@@ -9,6 +9,6 @@ from researcher a,
 where a.researcher_id = b.researcher_id and
       b.project_id = c.project_id and
       a.researcher_birth_date > now() - interval 40 year and
-      c.end_date < now()
+      c.end_date > now()
 group by a.researcher_last_name, a.researcher_first_name
 order by count(b.researcher_id) desc
