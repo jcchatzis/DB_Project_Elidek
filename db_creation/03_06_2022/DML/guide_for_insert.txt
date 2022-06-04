@@ -8,3 +8,5 @@ INSERT DATA IN THE DB IN THE FOLLOWING ORDER:
 6.scientific_field-ins.sql
 7.researcher-ins.sql
 8.project_donation-ins.sql
+9.employer-ins.sql
+10.employer_manages_project-ins.sql
