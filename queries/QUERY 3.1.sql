@@ -17,4 +17,4 @@ where a.start_date = (?) and
       a.duration = (?) and
       c.employer_name = (?)
   
-order c.project_id asc
+order by a.project_id asc
