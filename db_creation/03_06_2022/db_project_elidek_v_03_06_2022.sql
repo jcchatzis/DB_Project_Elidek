@@ -305,7 +305,7 @@ CREATE TABLE researcher_works_org (
     researcher_id int unsigned not null,
     start_date_of_work date not null,
     date_end_of_work date,
-    CONSTRAINT PK_RESEARCHER_WORKS_ORG PRIMARY KEY (researcher_id, org_id),
+    CONSTRAINT PK_RESEARCHER_WORKS_ORG PRIMARY KEY (researcher_id, org_id,start_date_of_work),
     CONSTRAINT FK_RES_WORKS_ORG_ORG_ID FOREIGN KEY (org_id) REFERENCES organisation(org_id),
     CONSTRAINT FK_RES_WORKS_ORG_RESEARCHER_ID FOREIGN KEY (researcher_id) REFERENCES researcher(researcher_id),
     CONSTRAINT CHK_date_end_WORK CHECK (date_end_of_work is null or date_end_of_work >= start_date_of_work)
