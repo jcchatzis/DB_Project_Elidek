@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -21,7 +22,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "root";
-        $DBname = "DB_Project_ELIDEK"
+        $DBname = "DB_Project_ELIDEK";
 
 
         // Create connection

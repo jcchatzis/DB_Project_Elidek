@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -21,16 +22,16 @@
         $servername = "localhost";
         $username = "root";
         $password = "root";
-        $DBname = "DB_Project_ELIDEK"
+        $DBname = "DB_Project_ELIDEK";
 
 
         // Create connection
         $conn = mysqli_connect($servername, $username, $password, $DBname);
 
         // Check connection
-        if (!$conn) {
-          die("Connection failed: " . mysqli_connect_error());
-        }
+        //if (!$conn) {
+        //  die("Connection failed: " . mysqli_connect_error());
+        //}
         $output = "Connection Successful";
         echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
         

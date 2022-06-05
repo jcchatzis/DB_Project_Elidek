@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -21,7 +22,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "root";
-        $DBname = "DB_Project_ELIDEK"
+        $DBname = "DB_Project_ELIDEK";
 
 
         // Create connection
@@ -81,6 +82,7 @@
                     <h2>Project title:</h2> <input type="text" name="projectTitle"><br><br>
                     <input class="btn btn-primary btn-xl"  type="submit" name = "button1" value="Load Data"> 
                 </form>  
+
                 <?php 
                 
                 if($_GET){
@@ -96,9 +98,9 @@
                         
                         if (is_null($project_title)){
 
-                            if(is_null($start_date)){ $start_date = "  or 1=1"}
-                            if(is_null($duration)){ $duration = "  or 1=1"}
-                            if(is_null($manager_name)){ $manager_name = "  or 1=1"}
+                            if(is_null($start_date)){ $start_date = "  or 1=1";}
+                            if(is_null($duration)){ $duration = "  or 1=1";}
+                            if(is_null($manager_name)){ $manager_name = "  or 1=1";}
 
 
                             echo " <br><h1> Projects: </h1>";
@@ -195,7 +197,7 @@
                             } else {
                             echo "0 results";
                             }
-                            echo "</tbody></table>"
+                            echo "</tbody></table>";
                         }
 
                         echo " <br><h1> Programs: </h1>";
@@ -235,7 +237,7 @@
                         } else {
                         echo "0 results";
                         }
-                        echo "</tbody></table>"
+                        echo "</tbody></table>";
 
                     }
                     

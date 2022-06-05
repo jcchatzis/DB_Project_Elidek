@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -21,7 +22,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "root";
-        $DBname = "DB_Project_ELIDEK"
+        $DBname = "DB_Project_ELIDEK";
 
 
         // Create connection
@@ -92,7 +93,7 @@
                 <?php 
                 
                     if($_GET){
-                    <!--//an einai to ena i an einai to allo-->
+                    //<!--an einai to ena i an einai to allo-->
                         if(isset($_GET['button2'])) {
                             $resercherFirstName =  $_GET['resercherFirstName'];
                             $resercherLastName =  $_GET['resercherLastName'];
@@ -151,7 +152,6 @@
                                         <td>'. $row["project_title"].'</td>
                                         </tr>';
 
-                                        ;
                                         $idx +=1;
                                     }        
                                 } 
