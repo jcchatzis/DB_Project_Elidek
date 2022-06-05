@@ -12,3 +12,7 @@
 3.Αντιγράφουμε τα αρχεια που βρίσκονται στο UI directory στο gitrepo στον φακελο htdocs του MAMP.
 
 4.Τελος ανοίγουμε στον φυλλομετρητή της επιλογης μας την διευθηνση http://localhost/index.php και θα δουμε την αρχικη σελιδα της εφαρμογης.
+
+**NOT ANY AFILIATION WITH H.F.R.I.**
+**This repo was made for the semester project of Data Bases Subject at NTUA ECE**
+**By Chatzis Ioannis, Froudakis Evangelos, Sampanis Athanasios**
