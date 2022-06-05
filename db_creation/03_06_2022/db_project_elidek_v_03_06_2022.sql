@@ -67,7 +67,7 @@ END; //
 
 CREATE TABLE Project(
     project_id int unsigned not null AUTO_INCREMENT, 
-    org_id char(20) not null,       
+    org_id char(20)  ull,       
 	project_title varchar(255) not null,
     description text not null,
     budget int unsigned not null,
@@ -76,7 +76,7 @@ CREATE TABLE Project(
     duration int unsigned not null,
     CONSTRAINT PK_PROJECT PRIMARY KEY (project_id),
     CONSTRAINT UN_PROJECT_TILE UNIQUE (project_title),
-    CONSTRAINT FK_ORG_ID_OF_PROJECT FOREIGN KEY (org_id),
+    CONSTRAINT FK_ORG_ID_OF_PROJECT FOREIGN KEY (org_id) ON DELETE SET NULL,
     CONSTRAINT CHK_BUDGET CHECK (budget >= 100000 and budget <= 1000000),
     CONSTRAINT CHK_date_end CHECK (date_end is null or (date_end >= start_date + INTERVAL 1 YEAR and date_end <= start_date + INTERVAL 4 YEAR))
     );
