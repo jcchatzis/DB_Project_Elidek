@@ -96,11 +96,11 @@
                
 
                         
-                        if (is_null($project_title)){
+                        if (empty($project_title)){
 
-                            if(is_null($start_date)){ $start_date = "  or 1=1";}
-                            if(is_null($duration)){ $duration = "  or 1=1";}
-                            if(is_null($manager_name)){ $manager_name = "  or 1=1";}
+                            if(empty($start_date)){ $start_date = "  or 1=1";}
+                            if(empty($duration)){ $duration = "  or 1=1";}
+                            if(empty($manager_name)){ $manager_name = "  or 1=1";}
 
 
                             echo " <br><h1> Projects: </h1>";
@@ -112,7 +112,7 @@
                                     
                                     where a.start_date = ".$start_date." and
                                         a.duration = ".$duration." and
-                                        c.employer_name = ".$manager_name."
+                                        c.employer_name = '".$manager_name."'
                                     
                                     order by a.project_id asc
                                     ";

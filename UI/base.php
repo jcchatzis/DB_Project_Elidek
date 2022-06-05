@@ -33,7 +33,7 @@
         //  die("Connection failed: " . mysqli_connect_error());
         //}
         $output = "Connection Successful";
-        echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+        echo "<script>console.log('Debug Objects: " . $output . "' )</script>";
         
     ?>
 

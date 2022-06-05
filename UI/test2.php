@@ -100,13 +100,13 @@
                             $organisationID =  $_GET['organisationID'];
 
                             // <!--echo '<script>alert("'.  $_POST['name'] . ',  '.$_POST['email'].'")</script>';-->
-                            if (is_null($resercherLastName) and is_null($organisationID)){
+                            if (empty($resercherLastName) and empty($organisationID)){
                                 ;
-                            }else if (!is_null($resercherLastName) and !is_null($organisationID)){
+                            }else if (!empty($resercherLastName) and !empty($organisationID)){
                                 echo " <h1> Enter only one  </h1>";
                             }else{
 
-                                if (!is_null($resercherLastName) and is_null($organisationID)){
+                                if (!empty($resercherLastName) and empty($organisationID)){
                                     $flag = 0;
                                     $sql = "select c.project_title
            

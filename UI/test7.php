@@ -73,12 +73,15 @@
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Test 7</h2>
                 <!-- Icon Divider-->
                 <br>   
-
-                <input class="btn btn-primary btn-xl"  type="submit" name = "button1" value="Load Data"> 
+                <form method="get">
+                <input class="btn btn-primary btn-xl"  type="submit" name = "button2" value="Load Data"> 
+                </form> 
                 <br>
                 <?php 
                 
-                    if ($_GET){
+                if($_GET){
+                    //<!--an einai to ena i an einai to allo-->
+                        if(isset($_GET['button2'])) {
                     // echo '<script>alert("'.  $_POST['name'] . ',  '.$_POST['email'].'")</script>';
                         $sql = "select sum(c.budget),
                                         a.employer_name,
@@ -128,7 +131,7 @@
                         echo "</tbody></table>";
                         
                     }
-                
+                }
                 ?>
 
                 

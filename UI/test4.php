@@ -73,12 +73,15 @@
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Test 4</h2>
                 <!-- Icon Divider-->
                 <br>   
-
+                <from method="get">
                 <input class="btn btn-primary btn-xl"  type="submit" name = "button1" value="Load Data"> 
+                </form> 
                 <br>
                 <?php 
                 
-                    if ($_GET){
+                if($_GET){
+                    //<!--an einai to ena i an einai to allo-->
+                        if(isset($_GET['button1'])) {
                     // echo '<script>alert("'.  $_POST['name'] . ',  '.$_POST['email'].'")</script>';
                         $sql = "select c.num_of_projects as num_of_projects,
                                         c.org_id as org
@@ -131,11 +134,12 @@
                             $idx +=1;
                           }        
                         } else {
-                          echo "0 results";
+                          echo "<h2>0 results</2>";
                         }
                         echo "</tbody></table>";
                         
                     }
+                }
                 
                 ?>
                      
