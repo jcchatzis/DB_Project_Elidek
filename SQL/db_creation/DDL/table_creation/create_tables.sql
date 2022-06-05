@@ -189,7 +189,7 @@ CREATE TABLE employer(
     employer_name varchar(255) not null,
     CONSTRAINT PK_EMPLOYER PRIMARY KEY (employer_id),
     CONSTRAINT UN_EMPLOYER_MANAGERS_PROJECT UNIQUE (employer_name)
-)
+);
 
     /*create table employer_manages_project */
 CREATE TABLE employer_manages_project (
