@@ -15,4 +15,5 @@
 
 **NOT ANY AFILIATION WITH H.F.R.I.**
 **This repo was made for the semester project of Data Bases Subject at NTUA ECE**
-**By Chatzis Ioannis, Froudakis Evangelos, Sampanis Athanasios**
+
+**By Chatzis Ioannis([@jcchatzis](https://github.com/jcchatzis)), Froudakis Evangelos([EvanFr](https://github.com/EvanFr)), Sampanis Athanasios([SabosThanos](https://github.com/SabosThanos))**
