@@ -1,7 +1,6 @@
-**Data Bases Subject - Semester group project**
----
 
 **Οδηγίες εγκατάστασεις για *Windows* και *ΜacOS***
+---
 
 Απαιτούμενες Εφαρμογές:
 
