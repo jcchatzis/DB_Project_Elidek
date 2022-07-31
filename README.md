@@ -23,4 +23,4 @@
 
 **This repository corresponds to the semester project for the Subject of Data Bases at NTUA ECE**
 
-**By Chatzis Ioannis([@jcchatzis](https://github.com/jcchatzis)), Froudakis Evangelos([EvanFr](https://github.com/EvanFr)), Sampanis Athanasios([SabosThanos](https://github.com/SabosThanos))**
+**By Chatzis Ioannis([jcchatzis](https://github.com/jcchatzis)), Froudakis Evangelos([EvanFr](https://github.com/EvanFr)), Sampanis Athanasios([SabosThanos](https://github.com/SabosThanos))**
