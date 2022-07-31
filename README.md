@@ -19,7 +19,7 @@
 
 --Project was graded with **96/100**--
 
-**ΚΑΜΙΑ ΣΥΣΧΈΤΙΣΗ ΜΕ ΤΟ EΛ.ΙΔ.Ε.Κ, το όνομα χρησμοποιήθηκε σαν θιεωρητικό παράδειγμα προσέγγισης του θέματος της εργασίας - NO AFFILIATION WITH H.F.R.I.**
+**ΚΑΜΙΑ ΣΥΣΧΈΤΙΣΗ ΜΕ ΤΟ EΛ.ΙΔ.Ε.Κ, το όνομα χρησμοποιήθηκε σαν θεωρητικό παράδειγμα προσέγγισης του θέματος της εργασίας - NO AFFILIATION WITH H.F.R.I.**
 
 **This repository corresponds to the semester project for the Subject of Data Bases at NTUA ECE**
 
