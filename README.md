@@ -4,8 +4,8 @@
 
 Απαιτούμενες Εφαρμογές:
 
--MySQL (DBMS)
--MAMP (Web Dev Stack)
+- MySQL (DBMS)
+- MAMP (Web Dev Stack)
 
 Οδηγίες:
 
